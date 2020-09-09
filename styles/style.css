@@ -7,12 +7,69 @@ l {
 font-family: 'Source Sans Pro', sans-serif;
 list-style-type: none;
 display: flex;
+position: relative;
 margin: 1rem;
+}
+
+l img {
+   width: 3rem;
+   height: 3rem;
+   margin-right: 2rem;
 }
 
 li {
   margin: 1rem;
   align-content: center;
+}
+
+#siteheader {
+  position: relative;
+}
+
+#siteHeader img {
+  width: 100%;
+  height: 23rem;
+}
+
+#siteHeader h1 {
+  position: absolute;
+  font-size: 3rem;
+  top: 4.5rem;
+  left: 2rem;
+  right: 11rem;
+  line-height: 3rem;
+}
+
+#siteHeader h2 {
+  position: absolute;
+  top: 15rem;
+  left: 2rem;
+  right: 2rem;
+  line-height: 1.7rem;
+}
+
+#paarseBlokken h2 {
+  position: absolute;
+  font-size: 2rem;
+  line-height: 1.5rem;
+  color: white;
+  left: 2rem;
+  right: 6rem;
+}
+
+#paarseBlokken p {
+  color: white;
+  padding: 1rem;
+}
+
+#blokEen {
+  position: relative;
+  background-color: #793B70;
+}
+
+#blokTwee {
+  position: relative;
+  background-color: #793B70;
 }
 
 h1 {
@@ -31,6 +88,25 @@ p {
 font-family: 'Source Sans Pro', sans-serif;
 }
 
+#clientSlider {
+  background-color: #F7F5E1;
+}
+
+#clientSlider img {
+  width: 100%;
+}
+
 #quotesSlide {
   font-style: italic;
+}
+
+#teamSlider img {
+  border-radius: 100%;
+  width: 15rem;
+}
+
+#trustedBy img {
+  width: 7rem;
+  height: 3rem;
+  padding: 0.5rem;
 }
