@@ -43,7 +43,7 @@ Tot zover is een groot deel van de mobiele versie af. Ik moet alleen nog javascr
 **Screenshot(s):**
 
 (voortgang1_1.png)
-(images/voortgang1_2.png)
+(basiswebsite/images/voortgang1_2.png)
 (images/voortgang1_3.png)
 (images/voortgang1_4.png)
 (images/voortgang1_5.png)
