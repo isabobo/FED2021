@@ -52,7 +52,6 @@ Tot zover is een groot deel van de mobiele versie af. Ik moet alleen nog javascr
 
 Voortgang gesprek planning
 - Flexbox; blokken naast elkaar zetten
-- Op Github werkt de css niet
 - Image slider javascript (?)
 - Pannenkoeken menu; als er op de website een is, mag je die dan namaken of moet je een andere oplossing bedenken?
 
