@@ -3,24 +3,47 @@
   box-sizing:border-box;
 }
 
-l {
+/*Dit haalt de default css van chrome weg, omdat de header images de hele breedte moeten vullen*/
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+/*De navigatie*/
+
+header {
+  position: relative;
+  background-color: white;
+  box-shadow: 0px 1px 1px lightgrey;
+  width: 100%;
+  height: 10%;
+}
+
+nav img {
+   width: 3rem;
+   height: 3rem;
+   margin-left: 1rem;
+   position: absolute;
+}
+
+@media(min-width:800px){
+nav ul {
 font-family: 'Source Sans Pro', sans-serif;
 list-style-type: none;
 display: flex;
-position: relative;
+justify-content: flex-end;
 margin: 1rem;
-}
-
-l img {
-   width: 3rem;
-   height: 3rem;
-   margin-right: 2rem;
 }
 
 li {
   margin: 1rem;
   align-content: center;
 }
+}
+
+/*De header op de homepagina*/
+
 
 #siteheader {
   position: relative;
@@ -35,42 +58,93 @@ li {
   position: absolute;
   font-size: 3rem;
   top: 4.5rem;
-  left: 2rem;
-  right: 11rem;
+  left: 1rem;
+  right: 9rem;
   line-height: 3rem;
 }
 
 #siteHeader h2 {
   position: absolute;
-  top: 15rem;
-  left: 2rem;
+  top: 14.5rem;
+  left: 1rem;
   right: 2rem;
   line-height: 1.7rem;
 }
 
-#paarseBlokken h2 {
+/*De header van de detail pagina*/
+
+#caseHeader {
+  position: relative;
+}
+
+#caseHeader img {
+  width: 100%;
+}
+
+#caseHeader h2 {
+  color: white;
   position: absolute;
-  font-size: 2rem;
-  line-height: 1.5rem;
-  color: white;
+  top: 0.2rem;
   left: 2rem;
-  right: 6rem;
 }
 
-#paarseBlokken p {
+#caseHeader h1 {
   color: white;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  line-height: 2rem;
+}
+
+#caseHeader p {
+  color: white;
+  position: absolute;
+  top: 7rem;
+  left: 2rem;
+}
+
+#caseQuote p:nth-of-type(1) {
+  font-style: italic;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#caseQuote p:nth-of-type(n+2) {
+  font-size: 0.8em;
+  padding-left: 1rem;
+  line-height: 0.3rem;
+}
+
+/*De paarse blokken met informatie*/
+
+.paarseblokken {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.paarseblokken div {
   padding: 1rem;
+  margin-top: 0.5rem;
 }
 
-#blokEen {
-  position: relative;
+.blokken {
   background-color: #793B70;
 }
 
-#blokTwee {
-  position: relative;
-  background-color: #793B70;
+.blokken h2 {
+  color: white;
 }
+
+.blokken p {
+  color: white;
+}
+
+.blokken a {
+  color: white;
+}
+
+
 
 h1 {
 font-family: 'Source Sans Pro', sans-serif;
@@ -103,6 +177,33 @@ font-family: 'Source Sans Pro', sans-serif;
 #teamSlider img {
   border-radius: 100%;
   width: 15rem;
+}
+
+/*Het gele blok waar mensen op kunnen klikken als ze advies willen*/
+
+#helpLink {
+  background-color: #ECFF07;
+}
+
+#helpLink h2 {
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  font-size: 1.5rem;
+  word-spacing: 0.2rem;
+}
+
+#helpLink p {
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  padding-bottom: 5rem;
+  font-size: 1.2rem;
+}
+
+/*De klanten onderaan de pagina*/
+
+#trustedTitel {
+  text-align: center;
+  letter-spacing: 0.2rem;
 }
 
 #trustedBy img {
