@@ -42,11 +42,11 @@ Tot zover is een groot deel van de mobiele versie af. Ik moet alleen nog javascr
 
 **Screenshot(s):**
 
-(voortgang1_1.png)
-(basiswebsite/images/voortgang1_2.png)
-(images/voortgang1_3.png)
-(images/voortgang1_4.png)
-(images/voortgang1_5.png)
+(images/voortgang1_1.jpg)
+(images/voortgang1_2.jpg)
+(images/voortgang1_3.jpg)
+(images/voortgang1_4.jpg)
+(images/voortgang1_5.jpg)
 
 ### Agenda voor meeting
 
