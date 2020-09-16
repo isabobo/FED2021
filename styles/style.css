@@ -27,7 +27,6 @@ nav img {
    position: absolute;
 }
 
-@media(min-width:800px){
 nav ul {
 font-family: 'Source Sans Pro', sans-serif;
 list-style-type: none;
