@@ -38,7 +38,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Tot zover is een groot deel van de mobiele versie af. Ik moet alleen nog javascript en flexbox goed toepassen. Ik wil ook een image slider maken met informatie, maar ik weet nog niet zo goed of dat javascript is en hoe ik dat het beste kan doen. De volgende stap is om de mobiele versie te "refinen" en alles goed te laten schalen naar desktop.
 
 **Screenshot(s):**
 
@@ -46,7 +46,11 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
+Voortgang gesprek planning
+- Flexbox; blokken naast elkaar zetten
+- Op Github werkt de css niet
+- Image slider javascript (?)
+- Pannenkoeken menu; als er op de website een is, mag je die dan namaken of moet je een andere oplossing bedenken?
 
 ### Verslag van meeting
 
