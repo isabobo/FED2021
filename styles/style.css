@@ -10,14 +10,31 @@ body {
   margin: 0;
 }
 
+h1 {
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+h2 {
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+h3 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+p {
+font-family: 'Source Sans Pro', sans-serif;
+}
+
 /*De navigatie*/
 
 header {
-  position: relative;
+  position: fixed;
   background-color: white;
   box-shadow: 0px 1px 1px lightgrey;
   width: 100%;
-  height: 10%;
+  height: 12%;
+  z-index:100;
 }
 
 nav img {
@@ -43,20 +60,20 @@ li {
 
 /*De header op de homepagina*/
 
-
 #siteheader {
   position: relative;
 }
 
 #siteHeader img {
   width: 100%;
-  height: 23rem;
+  height: 27rem;
+  padding-top: 4rem;
 }
 
 #siteHeader h1 {
   position: absolute;
   font-size: 3rem;
-  top: 4.5rem;
+  top: 4rem;
   left: 1rem;
   right: 9rem;
   line-height: 3rem;
@@ -78,28 +95,33 @@ li {
 
 #caseHeader img {
   width: 100%;
+  padding-top: 5rem;
 }
 
 #caseHeader h2 {
   color: white;
   position: absolute;
-  top: 0.2rem;
+  top: 5rem;
   left: 2rem;
 }
 
 #caseHeader h1 {
   color: white;
   position: absolute;
-  top: 2rem;
+  top: 7rem;
   left: 2rem;
   line-height: 2rem;
 }
 
 #caseHeader p {
-  color: white;
   position: absolute;
-  top: 7rem;
+  top: 12rem;
   left: 2rem;
+  font-size: 1.2rem;
+}
+
+#caseHeader a {
+  color: white;
 }
 
 #caseQuote p:nth-of-type(1) {
@@ -122,8 +144,9 @@ li {
   flex-wrap: wrap;
 }
 
-.paarseblokken div {
-  padding: 1rem;
+.paarseblokken article {
+  padding-left: 1rem;
+  padding-right: 1rem;
   margin-top: 0.5rem;
 }
 
@@ -133,69 +156,147 @@ li {
 
 .blokken h2 {
   color: white;
+  font-size: 2rem;
+  line-height: 2rem;
 }
 
 .blokken p {
   color: white;
+  font-size: 1.3rem;
 }
 
 .blokken a {
   color: white;
 }
 
+/*Het witte informatieblok op de detail pagina*/
 
-
-h1 {
-font-family: 'Source Sans Pro', sans-serif;
+.witblok h2 {
+  font-size: 2rem;
+  line-height: 2rem;
 }
 
-h2 {
-font-family: 'Source Sans Pro', sans-serif;
+.witblok p {
+  font-size: 1.3rem;
 }
 
-h3 {
-  font-family: 'Source Sans Pro', sans-serif;
+.readhow  {
+  text-align: center;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  font-size: 2rem;
 }
 
-p {
-font-family: 'Source Sans Pro', sans-serif;
-}
+/*De slider met de verschillende cases*/
 
 #clientSlider {
   background-color: #F7F5E1;
+  padding-bottom: 25rem;
+  position: relative;
 }
 
 #clientSlider img {
   width: 100%;
 }
 
+#clientSlider h2 {
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+#clientSlider p {
+  position: absolute;
+  font-size: 1.5rem;
+  padding-left: 1rem;
+  bottom: 10rem;
+}
+
+#clientSlider p:nth-of-type(2) {
+  position: absolute;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+  bottom: 8rem;
+}
+
+#clientSlider p:nth-of-type(3) {
+  position: absolute;
+  font-size: 1.3rem;
+  padding-left: 1rem;
+  bottom: 4rem;
+}
+
+#clientSlider a {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+#clientSlider a:hover {
+  opacity: 1;
+}
+
 #quotesSlide {
   font-style: italic;
+  padding: 1rem;
+}
+
+/*De foto's en namen van het team*/
+
+#teamSlider {
+  text-align: center;
+}
+
+#teamSlider h2 {
+  font-size: 2rem;
 }
 
 #teamSlider img {
   border-radius: 100%;
-  width: 15rem;
+  width: 13rem;
+  margin-top: 1rem;
+}
+
+#teamSlider p:nth-of-type(1) {
+  font-size: 1.4rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 /*Het gele blok waar mensen op kunnen klikken als ze advies willen*/
 
 #helpLink {
   background-color: #ECFF07;
+  text-align: center;
+  position: relative;
 }
 
 #helpLink h2 {
-  padding-left: 0.5rem;
-  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-top: 1rem;
   font-size: 1.5rem;
   word-spacing: 0.2rem;
 }
 
 #helpLink p {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  padding-bottom: 5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 2rem;
   font-size: 1.2rem;
+}
+
+#helpLink a {
+  position: absolute;
+  color: black;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+  border-style: solid;
+  bottom: 1.5rem;
+  left: 11rem;
 }
 
 /*De klanten onderaan de pagina*/
@@ -205,8 +306,99 @@ font-family: 'Source Sans Pro', sans-serif;
   letter-spacing: 0.2rem;
 }
 
+#trustedBy {
+  text-align: center;
+}
+
 #trustedBy img {
   width: 7rem;
   height: 3rem;
   padding: 0.5rem;
+  margin: 0.5rem;
+}
+
+/*De contact knop in het gele blok*/
+
+#deKnop {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  opacity: 0.8;
+  position: relative;
+  bottom: 2rem;
+}
+
+#deKnop:hover {
+  opacity: 1;
+}
+
+/*Pop-up form bij het gele blok*/
+
+.popup h2 {
+  position: absolute;
+  top: -0.1rem;
+}
+
+.popup p {
+padding: 0;
+}
+
+.popup {
+ display: none;
+}
+
+.popup .hide {
+ display: none;
+}
+
+.show {
+  display: block;
+  align-items: center;
+  position: fixed;
+  bottom: 3rem;
+  right: 2rem;
+  border: 0.2rem solid #f1f1f1;
+  transition: all 250ms ease;
+  z-index: 9;
+}
+
+.form-container {
+  max-width: 20rem;
+  padding: 2rem;
+  background-color: white;
+}
+
+.form-container input[type=text] {
+  width: 100%;
+  padding: 1rem;
+  border: none;
+  background: #f1f1f1;
+}
+
+.form-container .btnn {
+  background-color: #793B70;
+  color: white;
+  padding: 1rem;
+  border: none;
+  width: 100%;
+  margin-top: 2rem;
+  opacity: 0.8;
+}
+
+.form-container .btn {
+  background-color: black;
+  color: white;
+  padding: 1rem;
+  border: none;
+  width: 100%;
+  margin-top: 2rem;
+  opacity: 0.8;
+}
+
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
 }
