@@ -17,7 +17,7 @@
 </head>
 
 <body>
-	<script src="scripts/script.js"></script>
+
 
 <header>
 <nav>
@@ -33,39 +33,38 @@
 </nav>
 </header>
 
-<div id="siteHeader">
+<section id="siteHeader">
 	<img src="images/siteheader.jpg">
 	<h1>Engage with your customers</h1>
 	<h2>Channel Affairs can design, build and manage your next CRM solution. This enables you to engage customers, increase leads and improve customer service - in as many countries as you need.</h2>
-</div>
+</section>
 
-
-<div class="paarseblokken">
-
-<div class="blokken">
+<section class="paarseblokken">
+<article class="blokken">
 <h2>Custom-built CRM solutions</h2>
 <p>Standard technologies sound great, but customization and license fees are costly.  Channel Affairs can design and build custom solutions to solve your most pressing problems. You get exactly what you need. Plus, we can roll it out through your entire enterprise.</p>
-<p>learn about our services</p>
-</div>
+<p> <a href="detail.html">learn about our services</a> </p>
+</article>
 
-<div class="blokken">
+<article class="blokken">
 <h2>Get more from your CRM</h2>
 <p>Channel Affairs can address your specific needs in a custom-built Salesforce and Suite CRM solution. Tell us what you’re trying to achieve. We can design and build exactly what you are looking for. Then we can integrate it with your HR, finance and operations systems. Keep licensing costs low and get exactly what you need.</p>
 <p> <a href="detail.html">read our cases</a> </p>
-</div>
-</div>
+</article>
+</section>
 
-<h1>Read how we get results for clients</h1>
+<h2 class="readhow">Read how we get results for clients</h2>
 
-<div id="clientSlider">
+<section id="clientSlider">
 	<img src="images/smallstepssmall.jpg">
 
 <h2>Turn employees into brand ambassadors</h2>
 <p id="quotesSlide">"Together with Channel Affairs, we have optimized and expanded our customer journey. Due to the improved visibility and the manner of automated customer approach that suits our organization, we have improved insights and can act more data-driven.”</p>
 	<p>Miriam Kolken (Online Marketing) Smallsteps</p>
-</div>
+	<p><a href="detail.html">read this case</a></p>
+</section>
 
-<div id="teamSlider">
+<section id="teamSlider">
 <h2>Meet the team</h2>
 <p>Our international team can simplify your business processes and improve your digital expertise</p>
 
@@ -80,11 +79,30 @@
 <img src="images/team3.jpg">
 <h3>Bal Krishan Sharma</h3>
 <p>Developer</p>
-</div>
+</section>
 
-<div id="helpLink">
+<section id="helpLink">
 <h2>We can be your sounding board</h2>
 <p>Have a good idea? Or need our expertise? We can help you think it through and offer our advice - at no cost.</p>
+<button id="deKnop">contact</button>
+</section>
+
+<div class="popup" id="jsForm">
+  <form class="form-container">
+    <h2>Contact</h2>
+
+    <label for="email"><p>Email</p></label>
+    <input type="text" placeholder="Your e-mail" name="email">
+
+		<label for="email"><p>Phonenumber</p></label>
+    <input type="text" placeholder="Your phonenumber" name="phone">
+
+    <label for="msg"><p>Message</p></label>
+    <input type="text" placeholder="Enter your message" name="msg">
+
+    <button type="submit" class="btnn">Send</button>
+    <button type="submit" id="cancelKnop" class="btn cancel">Cancel</button>
+  </form>
 </div>
 
 <h3 id="trustedTitel">Trusted by:</h3>
@@ -100,6 +118,8 @@
 <img src="images/customer8.png">
 <img src="images/customer9.png">
 </div>
+
+<script src="scripts/script.js"></script>
 
 </body>
 
