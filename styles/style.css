@@ -53,7 +53,7 @@ margin: 1rem;
 }
 
 li {
-  margin: 1rem;
+  margin: 0.7rem;
   align-content: center;
 }
 }
@@ -66,7 +66,7 @@ li {
 
 #siteHeader img {
   width: 100%;
-  height: 27rem;
+  height: 29rem;
   padding-top: 4rem;
 }
 
@@ -208,21 +208,21 @@ li {
   position: absolute;
   font-size: 1.5rem;
   padding-left: 1rem;
-  bottom: 10rem;
+  bottom: 8rem;
 }
 
 #clientSlider p:nth-of-type(2) {
   position: absolute;
   font-size: 1.3rem;
   padding-left: 1rem;
-  bottom: 8rem;
+  bottom: 6rem;
 }
 
 #clientSlider p:nth-of-type(3) {
   position: absolute;
   font-size: 1.3rem;
   padding-left: 1rem;
-  bottom: 4rem;
+  bottom: 2rem;
 }
 
 #clientSlider a {
@@ -297,24 +297,6 @@ li {
   border-style: solid;
   bottom: 1.5rem;
   left: 11rem;
-}
-
-/*De klanten onderaan de pagina*/
-
-#trustedTitel {
-  text-align: center;
-  letter-spacing: 0.2rem;
-}
-
-#trustedBy {
-  text-align: center;
-}
-
-#trustedBy img {
-  width: 7rem;
-  height: 3rem;
-  padding: 0.5rem;
-  margin: 0.5rem;
 }
 
 /*De contact knop in het gele blok*/
@@ -401,4 +383,22 @@ padding: 0;
 
 .form-container .btn:hover, .open-button:hover {
   opacity: 1;
+}
+
+/*De klanten onderaan de pagina*/
+
+#trustedTitel {
+  text-align: center;
+  letter-spacing: 0.2rem;
+}
+
+#trustedBy {
+  text-align: center;
+}
+
+#trustedBy img {
+  width: 7rem;
+  height: 3rem;
+  padding: 0.5rem;
+  margin: 0.3rem;
 }
