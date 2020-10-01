@@ -30,7 +30,28 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+Met de hulp van Danny heb ik mijn javascript gedeelte afgekregen. Ik heb nu een pop-up field bij de contact knop onderaan de pagina. Verder heb ik op de homepagina verder gewerkt aan de styling, ik moet nu alleen nog de slider maken over de verschillende cases.
+
+**Screenshot(s):**
+
+![voortgang1](images/voortgang2_1.jpg)
+![voortgang2](images/voortgang2_2.jpg)
+
+### Agenda voor meeting
+
+Voortgang gesprek planning
+- Maxwidth bij grid toepassen
+- De pagina refresht wanneer de pop-up wordt afgesloten
+- Image on hover naar rechtsboven laten bewegen in animatie
+- Site haakt af '???' halverwege
+
+### Verslag van meeting
+
+Het probleem met het refreshen opgelost door (action:"helpLink") toe te voegen. Lars gaf de suggestie om de pop-up niet met display:none te verbergen, maar de pop-up uit het beeld te zetten en deze zo klein mogelijk te maken. Als ik dat doe kan ik ook een animatie toevoegen wanneer de pop-up in beeld komt. Ook moet ik het aantal ID's in mijn code verminderen, het zijn er nog teveel.
+
+
 
 
 
@@ -58,7 +79,7 @@ Voortgang gesprek planning
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+Uit de meeting is geconcludeerd dat ik voor de paarse blokken op mijn website flex kan gebruiken, alleen worden die niet responsive omdat ik de surface plane opdracht doe. 
 
 
 
