@@ -122,13 +122,15 @@ li {
   color: white;
 }
 
-#caseQuote p:nth-of-type(1) {
+/*De italic text onder de header op de detail pagina */
+
+div:nth-of-type(1) p:nth-of-type(1) {
   font-style: italic;
   padding-left: 1rem;
   padding-right: 1rem;
 }
 
-#caseQuote p:nth-of-type(n+2) {
+div:nth-of-type(1) p:nth-of-type(n+2) {
   font-size: 0.8em;
   padding-left: 1rem;
   line-height: 0.3rem;
@@ -216,6 +218,7 @@ li {
   font-size: 2rem;
   padding-left: 1rem;
   position: absolute;
+  text-align: left;
 }
 
 #clientSlider p {
@@ -223,6 +226,7 @@ li {
   font-size: 1.5rem;
   padding-left: 1rem;
   bottom: 8rem;
+  text-align: left;
 }
 
 #clientSlider p:nth-of-type(2) {
@@ -230,6 +234,7 @@ li {
   font-size: 1.3rem;
   padding-left: 1rem;
   bottom: 6rem;
+  line-height: 1.5rem;
 }
 
 #clientSlider p:nth-of-type(3) {
