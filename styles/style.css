@@ -11,11 +11,11 @@ body {
 }
 
 h1 {
-font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h2 {
-font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 h3 {
@@ -23,7 +23,7 @@ h3 {
 }
 
 p {
-font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /*De navigatie*/
@@ -33,7 +33,6 @@ header {
   background-color: white;
   box-shadow: 0px 1px 1px lightgrey;
   width: 100%;
-  height: 12%;
   z-index:100;
 }
 
@@ -45,17 +44,16 @@ nav img {
 }
 
 nav ul {
-font-family: 'Source Sans Pro', sans-serif;
-list-style-type: none;
-display: flex;
-justify-content: flex-end;
-margin: 1rem;
+  font-family: 'Source Sans Pro', sans-serif;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+  margin: 1rem;
 }
 
 li {
   margin: 0.7rem;
   align-content: center;
-}
 }
 
 /*De header op de homepagina*/
@@ -189,19 +187,35 @@ li {
 
 /*De slider met de verschillende cases*/
 
+#deSlider {
+  display: flex;
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  height: 750px;
+}
+
+#deSlider > div {
+  scroll-snap-align: start;
+}
+
 #clientSlider {
   background-color: #F7F5E1;
   padding-bottom: 25rem;
   position: relative;
+  flex-shrink: 0;
+  height: 100%;
 }
 
 #clientSlider img {
-  width: 100%;
+  width: 375px;
+  height: 200px;
 }
 
 #clientSlider h2 {
   font-size: 2rem;
   padding-left: 1rem;
+  position: absolute;
 }
 
 #clientSlider p {
@@ -247,49 +261,99 @@ li {
 
 /*De foto's en namen van het team*/
 
-#teamSlider {
+section:nth-of-type(3) {
   text-align: center;
 }
 
-#teamSlider h2 {
+section:nth-of-type(3) h2 {
   font-size: 2rem;
 }
 
-#teamSlider img {
+section:nth-of-type(3) h3 {
+  letter-spacing: 0rem;
+}
+
+section:nth-of-type(3) img {
   border-radius: 100%;
   width: 13rem;
   margin-top: 1rem;
 }
 
-#teamSlider p:nth-of-type(1) {
+section:nth-of-type(3) p:nth-of-type(1) {
   font-size: 1.4rem;
   padding-left: 3rem;
   padding-right: 3rem;
 }
 
+/*De kleine cases op de detail pagina*/
+
+#kleineBlokken p {
+  font-size: 1rem;
+  text-align: left;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  margin-bottom: -1rem;
+}
+
+#kleineBlokken h2 {
+  font-size: 1.5rem;
+  text-align: left;
+  padding-left: 1rem;
+  padding-bottom: 4rem;
+}
+
+#kleineBlokken article {
+  background-color: #F7F5E1;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+#kleineBlokken a {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  opacity: 0.8;
+  position: absolute;
+  bottom: 2rem;
+  left: 1rem;
+}
+
+#kleineBlokken a:hover {
+  opacity: 1;
+}
+
+#kleineFoto {
+  width: 100%;
+  border-radius: 0;
+}
+
 /*Het gele blok waar mensen op kunnen klikken als ze advies willen*/
 
-#helpLink {
+section:nth-of-type(4) {
   background-color: #ECFF07;
   text-align: center;
   position: relative;
 }
 
-#helpLink h2 {
+section:nth-of-type(4) h2 {
   padding-left: 1rem;
   padding-top: 1rem;
   font-size: 1.5rem;
   word-spacing: 0.2rem;
 }
 
-#helpLink p {
+section:nth-of-type(4) p {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 2rem;
   font-size: 1.2rem;
 }
 
-#helpLink a {
+section:nth-of-type(4) a {
   position: absolute;
   color: black;
   padding: 0.2rem;
@@ -326,42 +390,40 @@ li {
 }
 
 .popup p {
-padding: 0;
+  padding: 0;
 }
 
 .popup {
- display: none;
+  display: none;
 }
 
 .popup .hide {
- display: none;
+  display: none;
 }
 
 .show {
   display: block;
   align-items: center;
   position: fixed;
-  bottom: 3rem;
-  right: 2rem;
+  bottom: 6rem;
+  right: 1.5rem;
   border: 0.2rem solid #f1f1f1;
-  transition: all 250ms ease;
-  z-index: 9;
 }
 
-.form-container {
+form {
   max-width: 20rem;
   padding: 2rem;
   background-color: white;
 }
 
-.form-container input[type=text] {
+form input[type=text] {
   width: 100%;
   padding: 1rem;
   border: none;
   background: #f1f1f1;
 }
 
-.form-container .btnn {
+form .btnn {
   background-color: #793B70;
   color: white;
   padding: 1rem;
@@ -371,7 +433,7 @@ padding: 0;
   opacity: 0.8;
 }
 
-.form-container .btn {
+form .btn {
   background-color: black;
   color: white;
   padding: 1rem;
@@ -381,22 +443,22 @@ padding: 0;
   opacity: 0.8;
 }
 
-.form-container .btn:hover, .open-button:hover {
+form .btn:hover, .open-button:hover {
   opacity: 1;
 }
 
 /*De klanten onderaan de pagina*/
 
-#trustedTitel {
+h3:last-of-type {
   text-align: center;
   letter-spacing: 0.2rem;
 }
 
-#trustedBy {
+div:last-of-type {
   text-align: center;
 }
 
-#trustedBy img {
+div:last-of-type img {
   width: 7rem;
   height: 3rem;
   padding: 0.5rem;
