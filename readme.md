@@ -41,7 +41,7 @@ Voortgang gesprek planning
 
 ### Verslag van meeting
 
-Danny heeft het advies gegeven om goed te kijken naar de toegankelijkheid. Voor de slider heeft hij geadviseerd om een pijltje toe te voegen of om de image van de volgende slide een beetje in het scherm te laten. Dit door de eerste slide image op 80% te zetten bijvoorbeeld. Met event.preventdefault kan ik ervoor zorgen dat de cancel knop in het formulier niet de pagina refresht. De <p> in #deSlider vervangen met <blockquote>.
+Danny heeft het advies gegeven om goed te kijken naar de toegankelijkheid. Voor de slider heeft hij geadviseerd om een pijltje toe te voegen of om de image van de volgende slide een beetje in het scherm te laten. Dit door de eerste slide image op 80% te zetten bijvoorbeeld. Met event.preventdefault kan ik ervoor zorgen dat de cancel knop in het formulier niet de pagina refresht. De p in #deSlider vervangen met blockquote.
 
 
 
