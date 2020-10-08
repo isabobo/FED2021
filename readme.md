@@ -24,7 +24,25 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+### Stand van zaken
+
+Deze week heb ik alle styling afgemaakt. Nu kan ik echt focussen op de details in de code (toegankelijkheid, states, animatie).
+
+**Screenshot(s):**
+
+![voortgang1](images/voortgang3_1.jpg)
+![voortgang2](images/voortgang3_2.jpg)
+
+### Agenda voor meeting
+
+Voortgang gesprek planning
+- Slider automatisch maken, hoe kan dat? Of hoe kan ik het beste aantonen dat het een slider is?
+- Zijn het nog teveel ID's?
+
+### Verslag van meeting
+
+Danny heeft het advies gegeven om goed te kijken naar de toegankelijkheid. Voor de slider heeft hij geadviseerd om een pijltje toe te voegen of om de image van de volgende slide een beetje in het scherm te laten. Dit door de eerste slide image op 80% te zetten bijvoorbeeld.
+
 
 
 
