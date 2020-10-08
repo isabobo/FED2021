@@ -7,8 +7,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Bronnenlijst
 1. -https://css-tricks.com/css-only-carousel/-
-2. -bron 2-
-3. -...-
+2. -Danny-
+3. -Lars-
 
 
 
