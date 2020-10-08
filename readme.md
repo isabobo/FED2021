@@ -26,7 +26,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
-Deze week heb ik alle styling afgemaakt. Nu kan ik echt focussen op de details in de code (toegankelijkheid, states, animatie).
+Deze week heb ik alle styling afgemaakt. Ook heb ik aan alle images een alt toegevoegd. Nu kan ik echt focussen op de details in de code (toegankelijkheid, states, animatie).
 
 **Screenshot(s):**
 
