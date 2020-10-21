@@ -14,11 +14,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+In het begin had ik er niet zoveel vertrouwen in omdat ik van mezelf weet dat coderen niet mijn sterkste kant is in de webdesign wereld. Ik weet niet precies waardoor het komt, maar deze keer viel het kwartje. Ik begon snel aan de code te werken en opeens lukte alles me. Het is nog nooit zo soepel gegaan met frontend! Ik denk dat het mede komt omdat de uitleg heel duidelijk was (thanks Danny!) en het echt in duidelijke stappen werd uitgelegd. Zo heb ik stap voor stap een website kunnen bouwen.
+
+Voor de volgende keer wil ik mezelf misschien iets meer uitdagen. Het klinkt misschien meteen heel ambitieus, maar nu ik toch zo goed op gang ben, wil ik kijken wat ik nog meer kan doen als ik er echt voor ga! 
 
 **Screenshot(s):**
 
--screenshot(s) van je eindresultaat-
+![eind1](images/eind_1.jpg)
+![eind2](images/eind_2.jpg)
+![eind3](images/eind_3.jpg)
+![eind4](images/eind_4.jpg)
+![eind5](images/eind_5.jpg)
 
 
 
